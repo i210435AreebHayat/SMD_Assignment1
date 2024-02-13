@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="#E2F4FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        tools:context=".Search">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="158dp"
+            android:src="@drawable/corner" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|left"
+        tools:context=".Search">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#1589a1"
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|left"
+        android:layout_marginBottom="20dp"
+        tools:context=".Search">
+
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/homeicon" />
+
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/searchiconidle" />
+
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/circle" />
+
+
+        <ImageView
+            android:id="@+id/chatIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chaticonidle" />
+
+
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-8dp"
+            android:src="@drawable/profileiconidle" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="5dp"
+        tools:context=".Search">
+
+
+        <ImageView
+            android:id="@+id/addIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/addicon" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        tools:context=".Search">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:background="#E2F4FA"
+            >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginLeft="350dp"
+                app:srcCompat="@drawable/notificationbell" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello,"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Ali"
+            android:textColor="#1589a1"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="50dp"
+            android:layout_marginTop="50dp"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ready for mentorship? Let’s begin the journey!"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:layout_marginTop="90dp"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="26dp"
+            android:text="All"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/topnav"
+            android:backgroundTint="#1589a1"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="Education"
+            android:textColor="#1589a1"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/topnav"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="Entrepreneurship"
+            android:textColor="#1589a1"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/topnav"
+            android:textAlignment="center"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="Personal Growth"
+            android:textColor="#1589a1"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textSize="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/topnav"
+            android:textAlignment="center"
+            ></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:layout_marginTop="70dp"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top Mentors for you"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="150dp"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:layout_marginTop="110dp"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/numberkeys"
+            android:backgroundTint="#edd8dc"
+            ></TextView>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/numberkeys"
+            android:backgroundTint="#edd8dc"
+            ></TextView>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/numberkeys"
+            android:backgroundTint="#edd8dc"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/johnPage"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+            android:textColor="@color/black"
+        android:fontFamily="sans-serif"
+        android:textSize="10dp"
+            android:text="John Cooper\n UX Designer @ Google"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="-410dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/login_rectangle"
+        android:backgroundTint="@color/white"
+        ></TextView>
+
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:text="Martina Watson\n Lead - Technology Officer"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="@color/white"
+            ></TextView>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:text="Emma\n Lead - Corporation"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="@color/white"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:layout_marginTop="250dp"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Education Mentors for you"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="95dp"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="top|left"
+        android:layout_marginTop="295dp"
+        tools:context=".Home">
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/numberkeys"
+            android:backgroundTint="#edd8dc"
+            ></TextView>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/numberkeys"
+            android:backgroundTint="#edd8dc"
+            ></TextView>
+
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:textColor="#1589a1"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/numberkeys"
+            android:backgroundTint="#edd8dc"
+            ></TextView>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:text="Micheal Drake\n NLP Expert"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="-410dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="@color/white"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:text="Alex\n Android Developer"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="@color/white"
+            ></TextView>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif"
+            android:textSize="10dp"
+            android:text="Jane\n Software Engineer"
+            android:layout_marginTop="185dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="@color/white"
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

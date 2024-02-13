@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".johnMessages"
+    android:background="#E2F4FA">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="top|left"
+        android:orientation="horizontal"
+        tools:context=".ResetPassword"
+        android:background="#6ac7eb">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/back_icon1"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            app:tint="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:text="John Cooper"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            ></TextView>
+
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/voice"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            app:tint="@color/white"/>
+
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:srcCompat="@drawable/video"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            app:tint="@color/white"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|center"
+        android:layout_marginBottom="80dp"
+        tools:context=".Search">
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="100dp"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="#6ac7eb"
+            android:text="Type Something"
+            android:textColor="@color/white"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="5dp"
+            ></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            tools:context=".Search">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/login_rectangle"
+                android:backgroundTint="@color/white"
+                android:text="Yes"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20dp"></EditText>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/johnny" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="20dp"
+        tools:context=".Search">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/johnny"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="@color/white"
+            android:text="How can I help you?"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            ></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|right"
+        android:layout_marginBottom="250dp"
+        android:layout_marginRight="20dp"
+        tools:context=".Search">
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="#6ac7eb"
+            android:text="Hello, You there?"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="60dp"
+            ></EditText>
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_rectangle"
+            android:backgroundTint="#6ac7eb"
+            android:text="I need your guidance."
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="20dp"
+            ></EditText>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|left"
+        tools:context=".Search">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#1589a1"
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|left"
+        android:layout_marginBottom="20dp"
+        tools:context=".Search">
+
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/homeiconidle" />
+
+
+        <ImageView
+            android:id="@+id/searchIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/searchiconidle" />
+
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/circle" />
+
+
+        <ImageView
+            android:id="@+id/chatIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:src="@drawable/chaticon" />
+
+
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="-8dp"
+            android:src="@drawable/profileiconidle" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|center"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="5dp"
+        tools:context=".Search">
+
+
+        <ImageView
+            android:id="@+id/addIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/addicon" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom|left"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        tools:context=".Search">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            ></TextView>
+
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="20dp"
+            android:textColor="#246155"
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
